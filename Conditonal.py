@@ -31,10 +31,10 @@ def build_retriever(pdf_path : str):
     return vectorstore.as_retriever(search_kwargs = {"k":4})
 
 
-oops_pdf = build_retriever("Object Oriented Programming (1) (1).pdf")
-cn_pdf = build_retriever("Computer Networking Notes for Tech Placements (1).pdf")
-os_pdf =build_retriever("Operating System Notes.pdf")
-dbms_pdf = build_retriever("DBMS_Notes (2).pdf")
+oops_pdf = build_retriever("PDF\Computer Networking Notes for Tech Placements (1).pdf")
+cn_pdf = build_retriever("PDF\Computer Networking Notes for Tech Placements (1).pdf")
+os_pdf =build_retriever("PDF\Operating System Notes.pdf")
+dbms_pdf = build_retriever("PDF\DBMS_Notes (2).pdf")
 
 llm = ChatMistralAI(model="mistral-small-2506",temperature=0.5)
 
