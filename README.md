@@ -58,9 +58,9 @@ AI-Technical-Interview-Assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/AI-Technical-Interview-Assistant.git
+git clone https://github.com/Akshaykompally/Prompt2Hire.git
 
-cd AI-Technical-Interview-Assistant
+cd Prompt2Hire
 ```
 
 ### 2. Create Virtual Environment (Optional)
